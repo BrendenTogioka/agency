@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 const navLinks = [
   {
     title: "Home",
-    path: "/home",
+    path: "/",
   },
   {
     title: "Services",
@@ -18,28 +18,24 @@ const navLinks = [
     title: "Projects",
     path: "/projects",
   },
+  // {
+  //   title: "About",
+  //   path: "/about",
+  // },
   {
     title: "Contact",
     path: "/contact",
-  },
-  {
-    title: "About",
-    path: "/about",
-  },
-  {
-    title: "Blog",
-    path: "/blog",
   },
 ];
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header>
-      <nav className="flex justify-between py-4 px-8 ">
+    <header className="max-w-[1260px] mx-auto">
+      <nav className="flex justify-between py-4 px-8  ">
         <div className="flex items-center gap-5">
-          <h3 className="text-2xl font-black">
-            <Link href="/">decap.</Link>
+          <h3 className="text-3xl md:text-4xl font-black">
+            <Link href="/">impact.</Link>
           </h3>
         </div>
 

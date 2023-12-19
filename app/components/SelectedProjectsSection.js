@@ -19,7 +19,7 @@ const projects = [
 
 export default function SelectedProjectsSection() {
   return (
-    <section className="py-12 px-8">
+    <section className="py-12 px-8 max-w-[1260px] ">
       <div className="w-full sm:w-2/3 mb-8">
         <h2 className="text-4xl font-bold mb-2 leading-snug bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-500 inline-block text-transparent bg-clip-text">
           Selected Projects

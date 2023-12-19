@@ -4,13 +4,13 @@ import heroImage from "@/public/images/heroimage.webp";
 
 export default function HeroBanner() {
   return (
-    <section className="py-12 px-8 flex items-center flex-col sm:flex-row">
-      <div className="w-full md:w-1/2 text-center md:text-left mb-6">
+    <section className="py-12 px-8 sm:mt-10 flex items-center flex-col sm:flex-row max-w-[1260px] ">
+      <div className="w-full md:w-1/2 text-center sm:text-left md:text-left mb-6">
         <div>
-          <h1 className="text-4xl font-bold mb-2 leading-snug">
+          <h1 className="text-4xl sm:text-5xl  font-bold mb-2 leading-snug ">
             Where Innovation
             <br />
-            <span className="bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-500 inline-block text-transparent bg-clip-text">
+            <span className="sm:mt-2 bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-500 inline-block text-transparent bg-clip-text">
               Meets IMPACT
             </span>
           </h1>

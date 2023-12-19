@@ -7,7 +7,7 @@ import brand4 from "@/public/images/ipad.webp";
 
 export default function CompanyOverviewSection() {
   return (
-    <section className="py-12 px-8">
+    <section className="py-12 px-8 max-w-[1260px] ">
       <div className="flex flex-col sm:flex-row justify-center items-center text-center sm:text-left">
         <div className="w-full sm:w-1/2">
           <h3 className="text-md font-semibold uppercase">
