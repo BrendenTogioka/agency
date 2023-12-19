@@ -138,9 +138,9 @@ export default function Contact() {
               What is Material Tailwind?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
+              We&#39;re not always in the position that we want to be at.
+              We&#39;re constantly growing. We&#39;re constantly making
+              mistakes. We&#39;re constantly trying to express ourselves and
               actualize our dreams.
             </AccordionBody>
           </Accordion>
@@ -152,9 +152,9 @@ export default function Contact() {
               How to use Material Tailwind?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
+              We&#39;re not always in the position that we want to be at.
+              We&#39;re constantly growing. We&#39;re constantly making
+              mistakes. We&#39;re constantly trying to express ourselves and
               actualize our dreams.
             </AccordionBody>
           </Accordion>
@@ -166,9 +166,9 @@ export default function Contact() {
               What can I do with Material Tailwind?
             </AccordionHeader>
             <AccordionBody>
-              We&apos;re not always in the position that we want to be at.
-              We&apos;re constantly growing. We&apos;re constantly making
-              mistakes. We&apos;re constantly trying to express ourselves and
+              We&#39;re not always in the position that we want to be at.
+              We&#39;re constantly growing. We&#39;re constantly making
+              mistakes. We&#39;re constantly trying to express ourselves and
               actualize our dreams.
             </AccordionBody>
           </Accordion>
