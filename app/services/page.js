@@ -43,11 +43,11 @@ export default function Services() {
             }`}
             key={service.title}
           >
-            <div className="sm:w-1/2">
+            <div className="w-full sm:w-1/2">
               <h2 className="text-4xl sm:text-5xl pb-2 font-bold mb-2 leading-snug bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-500 inline-block text-transparent bg-clip-text">
                 {service.title}
               </h2>
-              <p className="w-[40ch] mb-6 text-lg">{service.description}</p>
+              <p className="sm:w-[40ch] mb-6 text-lg">{service.description}</p>
               <Link
                 href="/contact"
                 className="font-semibold text-lg text-white py-2 px-3  mr-2 rounded-lg bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-500"
@@ -55,7 +55,7 @@ export default function Services() {
                 Get in Touch
               </Link>
             </div>
-            <div className="sm:w-1/2">
+            <div className="w-full sm:w-1/2">
               <Image src={service.image} alt={service.title} />
             </div>
           </div>

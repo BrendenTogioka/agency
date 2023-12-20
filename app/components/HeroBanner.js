@@ -33,7 +33,7 @@ export default function HeroBanner() {
           </Link>
         </div>
       </div>
-      <div className="w-full md:w-1/2">
+      <div className="w-full md:w-1/2 mt-2 sm:mt-0">
         <Image src={heroImage} alt="hero image" />
       </div>
     </section>
