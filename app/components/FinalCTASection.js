@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function FinalCTASection() {
   return (
-    <section className="py-12 px-8 text-4xl font-semibold max-w-[1260px] ">
+    <section className="py-12 px-8 text-4xl md:text-5xl font-semibold max-w-[1260px] ">
       <div className="flex flex-col items-center">
         <div className="flex flex-col items-start text-start">
           <h2>

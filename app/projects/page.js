@@ -58,14 +58,14 @@ const blogs = [
 
 export default function Projects() {
   return (
-    <div className="mb-20 sm:mt-10 max-w-[1260px] py-12 overflow-x-hidden">
-      <div className="flex justify-center sm:justify-start  px-8 ">
+    <div className="mb-20 sm:mt-10  py-12 relative">
+      <div className="flex justify-center sm:justify-start max-w-[1260px] mx-auto px-8 ">
         <h1 className="text-5xl sm:text-6xl text-center sm:text-left font-bold bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-500 inline-block text-transparent bg-clip-text pb-2">
           Projects & Case Studies
         </h1>
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-8  py-12 px-8 ">
+      <div className="flex flex-col sm:flex-row gap-8 max-w-[1260px] mx-auto py-12 px-8 ">
         <div className="p-4 flex flex-col bg-white rounded-lg">
           <div>
             <Image
@@ -114,7 +114,7 @@ export default function Projects() {
 
       <CategoriesSlider />
 
-      <div className="pt-12 px-8 ">
+      <div className="pt-12 px-8 max-w-[1260px] mx-auto">
         <h2 className="text-5xl font-bold bg-gradient-to-r from-indigo-500 via-pink-500 to-orange-500 inline-block text-transparent bg-clip-text py-2 mb-6">
           Recent Insights
         </h2>
@@ -134,7 +134,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="py-12 px-8 flex flex-col gap-8">
+      <div className="py-12 px-8 flex flex-col gap-8 max-w-[1260px] mx-auto">
         {blogs.map((blog) => (
           <div
             key={blog.title}
