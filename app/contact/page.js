@@ -138,10 +138,9 @@ export default function Contact() {
               What is Material Tailwind?
             </AccordionHeader>
             <AccordionBody>
-              We&#39;re not always in the position that we want to be at.
-              We&#39;re constantly growing. We&#39;re constantly making
-              mistakes. We&#39;re constantly trying to express ourselves and
-              actualize our dreams.
+              We are not always in the position that we want to be at. We are
+              constantly growing. We are constantly making mistakes. We are
+              constantly trying to express ourselves and actualize our dreams.
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 2}>
@@ -152,10 +151,9 @@ export default function Contact() {
               How to use Material Tailwind?
             </AccordionHeader>
             <AccordionBody>
-              We&#39;re not always in the position that we want to be at.
-              We&#39;re constantly growing. We&#39;re constantly making
-              mistakes. We&#39;re constantly trying to express ourselves and
-              actualize our dreams.
+              We are not always in the position that we want to be at. We are
+              constantly growing. We are constantly making mistakes. We are
+              constantly trying to express ourselves and actualize our dreams.
             </AccordionBody>
           </Accordion>
           <Accordion open={open === 3}>
@@ -166,10 +164,9 @@ export default function Contact() {
               What can I do with Material Tailwind?
             </AccordionHeader>
             <AccordionBody>
-              We&#39;re not always in the position that we want to be at.
-              We&#39;re constantly growing. We&#39;re constantly making
-              mistakes. We&#39;re constantly trying to express ourselves and
-              actualize our dreams.
+              We are not always in the position that we want to be at. We are
+              constantly growing. We are constantly making mistakes. We are
+              constantly trying to express ourselves and actualize our dreams.
             </AccordionBody>
           </Accordion>
         </div>
