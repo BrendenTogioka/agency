@@ -23,7 +23,8 @@ export default function Contact() {
           </h1>
           <p className="text-lg leading-normal">
             Have a project in mind? Looking to partner or work together? Reach
-            out through the form and we'll get back to you in the next 48 hours.
+            out through the form and we will get back to you in the next 48
+            hours.
           </p>
           <div className="mt-4 flex flex-col md:flex-row items-center sm:items-start gap-4  md:gap-8">
             <div className="flex gap-1 items-center">
@@ -104,7 +105,7 @@ export default function Contact() {
               />
             </label>
             <label htmlFor="message" className="flex flex-col gap-1">
-              Tell us more about what you're looking for.
+              Tell us more about what you are looking for.
               <textarea
                 name="message"
                 id="message"
